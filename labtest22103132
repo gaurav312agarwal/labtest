@@ -1,0 +1,26 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy import linalg
+
+lions=np.array([15,16,17,20,19,21,23,24,25,27])
+elephants=np.array([50,52,54,53,55,56,57,59,60,62])
+zebras=np.array([100,98,95,97,96,94,95,93,92,90])
+def total_population(lions,elephants,zebras):
+    print("total population of lions is ",np.sum(lions))
+    print("total population of elephants is",np.sum(elephants))
+    print("total population of zebras is " ,np.sum(zebras))
+
+    
+def average_population(lions,elephants,zebras):
+    print("average population of lions is ",np.mean(lions))
+    print("average population of elephants is ",np.mean(elephants))
+    print("average population of zebras is ",np.mean(zebras))
+    
+def year_growth_rate(lions,elephants,zebras):
+    
+    
+total_population(lions,elephants,zebras)
+average_population(lions,elephants,zebras)
+    
+np.pl
+    
